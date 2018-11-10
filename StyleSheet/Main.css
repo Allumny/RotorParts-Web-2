@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+/*css utilizado nos menus*/
+body {
+	  background-color: white;
+}
+h1 {
+	font: tentativa;
+	color: black;
+	text-align: center;
+	font-size: 100px;
+}
+a {
+	font: tentativa;
+	color: darkslategray;
+	font-size: 50px;
+}
+p {
+	font: tentativa;
+	color: darkslategray;
+	font-size: 25px;
+}
+
