@@ -8,7 +8,8 @@ h1 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: black;
 	text-align: center;
-	font-size: 100px;
+	font-size: 75px;
+    opacity: 0.7;
 }
 h2 {
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -18,12 +19,44 @@ h2 {
 }
 a {
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: darkslategray;
-	font-size: 50px;
+	color: azure;
+	font-size: 30px;
 	text-decoration: none;
 }
 p {
-	font: calibri;
+	font-family: "Arial Black", Gadget, sans-serif;
 	color: darkslategray;
 	font-size: 25px;
+}
+#etc {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: dimgray;
+    text-decoration: overline;
+    text-decoration-style: double;
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: dimgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
