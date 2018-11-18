@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-/*css utilizado nos menus*/
+/* css utilizado nos menus */
 html {
 	  background-image: url(../Media/background.jpg);
 }
@@ -16,10 +16,11 @@ h2 {
 	color: black;
 	text-align: center;
 	font-size: 50px;
+    opacity: 0.7;
 }
 a {
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: azure;
+	color: dimgray;
 	font-size: 30px;
 	text-decoration: none;
 }
@@ -27,6 +28,7 @@ p {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: darkslategray;
 	font-size: 25px;
+    opacity: 0.7;
 }
 #etc {
     font-family: "Arial Black", Gadget, sans-serif;
@@ -34,6 +36,14 @@ p {
     text-decoration: overline;
     text-decoration-style: double;
     text-align: right;
+    opacity: 0.7;
+}
+#ehOtitulo {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: dimgray;
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.7;
 }
 ul {
     list-style-type: none;
@@ -56,7 +66,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
 li a:hover {
     background-color: #111;
 }
