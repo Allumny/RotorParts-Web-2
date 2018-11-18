@@ -24,6 +24,12 @@ a {
 	font-size: 30px;
 	text-decoration: none;
 }
+#aSecundario {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: dimgray;
+	font-size: 24px;
+	text-decoration: none;
+}
 p {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: darkslategray;
@@ -65,8 +71,14 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 /* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
 li a:hover {
     background-color: #111;
+}
+/* Css do submenu */
+.dropdown div {
+    display: none;
+}
+.dropdown:hover div {
+    display: block;
 }
