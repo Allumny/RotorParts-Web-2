@@ -1,6 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
-/* css utilizado nos menus */
+                                                                                        /* css utilizado nos menus */
 html {
 	  background-image: url(../Media/background.jpg);
 }
@@ -22,6 +21,12 @@ a {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: dimgray;
 	font-size: 30px;
+	text-decoration: none;
+}
+.aSecundario {/* Utilizado nos menus dropdown (por isso chamo de secundario) */
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: dimgray;
+	font-size: 24px;
 	text-decoration: none;
 }
 p {
@@ -65,8 +70,14 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
-li a:hover {
+li a:hover {/* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
     background-color: #111;
 }
+.dropdown div {/* Css do submenu */
+    display: none;
+}
+.dropdown:hover div {
+    display: block;
+}
+
+                                                                                                                            /* EH O RANGELZIN O BRABO ORIGINAL */
