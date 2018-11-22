@@ -6,9 +6,9 @@
       <title>RotorParts Web</title>
       <link href="StyleSheet/Main.css" rel="stylesheet" type="text/css">
       <link rel="icon" href="../download.png">
-      <script type="text/javascript" src="Script/Slideshow.js"></script>
 </head>
 <body>
+      <script type="text/javascript" src="Script/jquery-3.3.1.min.js"></script>
       <center><img src="Media/head.png"></center>
       <br><br>
       <ul>
@@ -37,23 +37,19 @@
           </li>
       </ul>
       <br><br>
-<div class="w3-content w3-display-container" style="max-width:800px">
-  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%">
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-  </div>
-</div>
-      <center>
-              <a href="parts-choose-brand.html"><img src="Media/250-detail-home-edit.png" width="500" height="500" title="Partes" style="border: medium"></a>
-              <a href="Motor-choose-brand.html"><img src="Media/250-motor-home-edit.png" width="500" height="500" title="Motores" style="border: medium"></a>
-              <a href="frame-choose-brand.html"><img src="Media/250-front-home-edit.png" width="500" height="500" title="Quads/Frames" style="border: medium"></a>
-      </center>
+      <div class="w3-content w3-display-container" style="max-width:800px">
+          <a href="parts-choose-brand.html"><img class="ehoSlide" src="Media/250-detail-home-edit.png" style="width:100%"></a>
+          <a href="Motor-choose-brand.html"><img class="ehoSlide" src="Media/250-motor-home-edit.png" style="width:100%"></a>
+          <a href="frame-choose-brand.html"><img class="ehoSlide" src="Media/250-front-home-edit.png" style="width:100%"></a>
+       <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+       <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+       <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+       <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+       </div>
+      </div>
+      <script type="text/javascript" src="Script/Slideshow.js"></script>
       <div id="etc">&copy Allumny 2018</div>
 </body>
 </html>
