@@ -1,5 +1,8 @@
 @charset "utf-8";
-                                                                                        /* css utilizado nos menus */
+*{
+    padding: 0px;
+    margin: 0px;
+}
 html {
 	  background-image: url(../Media/background.jpg);
 }
@@ -23,6 +26,7 @@ a {
 	font-size: 30px;
 	text-decoration: none;
 }
+
 .aSecundario {/* Utilizado nos menus dropdown (por isso chamo de secundario) */
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: dimgray;
@@ -70,13 +74,28 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {/* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
+li a:hover {   /* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
     background-color: #111;
 }
-.dropdown div {/* Css do submenu */
+/* apresentação de slides -inicio- */
+.ehoSlide {
+	display:none;
+}
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+}
+.display-container{
+    position:relative;
+}
+/* CSS dos slides -fim- */
+/* CSS do submenu -inicio- */
+.dropdown div {
     display: none;
 }
 .dropdown:hover div {
     display: block;
 }
-                                                                                                                         /* EH O RANGELZIN O BRABO ORIGINAL */
+/* CSS do submenu -fim- */
+/* EH O RANGELZIN O BRABO ORIGINAL */
