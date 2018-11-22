@@ -1,4 +1,8 @@
 @charset "utf-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
 html {
 	  background-image: url(../Media/background.jpg);
 }
@@ -70,100 +74,28 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {/* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
+li a:hover {   /* Muda a cor do link para #111 (preto) quando o mouse passa em cima */
     background-color: #111;
 }
-.mySlides {
+/* apresentação de slides -inicio- */
+.ehoSlide {
 	display:none;
 }
-.w3-badge {
-	cursor:pointer;
-    background-color:#000;
-    color:#fff;
-    display:inline-block;
-    padding-left:8px;
-    padding-right:8px;
-    text-align:center;
-    border-radius:50%;
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
 }
-.w3-transparent{
-    background-color:transparent!important;
+.display-container{
+    position:relative;
 }
-.w3-hover-white:hover{
-    color:#000!important;
-    background-color:#fff!important;
-}
-}
-.w3-border{
-    border:1px solid #ccc!important;
-}
-.w3-left{
-    float:left!important;
-	cursor:pointer;
-}
-.w3-right{
-    float:right!important;
-	cursor:pointer;
-}
-.w3-left-align{
-    text-align:left!important;
-}
-.w3-right-align{
-    text-align:right!important;
-}
-.w3-hover-text-khaki:hover{
-    color:#b4aa50!important;
-}
-.w3-badge {
-	height:13px;width:13px;padding:0;
-}
-.dropdown div {/* Css do submenu */
+/* CSS dos slides -fim- */
+/* CSS do submenu -inicio- */
+.dropdown div {
     display: none;
 }
 .dropdown:hover div {
     display: block;
 }
-.w3-content{
-    margin-left:auto;
-    margin-right:auto;
-    max-width:980px;
-}
-.w3-display-container{
-    position:relative;
-}
-.w3-display-container:hover{
-    display:block;
-    display:inline-block;
-}
-.w3-center{
-    display:inline-block;
-    width:auto;
-    text-align:center!important;
-}
-.w3-container:after,.w3-container:before{
-    content:"";
-    display:table;
-    clear:both;
-}
-.w3-container{
-    padding:0.01em 16px;
-}
-.w3-section{
-    margin-top:16px!important;
-    margin-bottom:16px!important;
-}
-.w3-large{
-    font-size:18px!important;
-}
-.w3-text-white{
-    color:#fff!important;
-}
-.w3-display-bottommiddle{
-    position:absolute;
-    left:50%;
-    bottom:0;
-    transform:translate(-50%,0%);
-    -ms-transform:translate(-50%,0%);
-}
-
+/* CSS do submenu -fim- */
 /* EH O RANGELZIN O BRABO ORIGINAL */
