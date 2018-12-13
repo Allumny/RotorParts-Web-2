@@ -82,8 +82,7 @@ li a:hover {   /* Muda a cor do link para #111 (preto) quando o mouse passa em c
 	display:none;
 }
 .content{
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
     position:relative;
 }
 /* CSS dos slides -fim- */
